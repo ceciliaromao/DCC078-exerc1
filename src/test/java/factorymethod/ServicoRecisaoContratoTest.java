@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-public class ServicoRecisaoContratoTest {
+class ServicoRecisaoContratoTest {
     @Test
     void deveExecutarRecisaoContrato() {
         IServico servico = ServicoFactory.obterServico("RecisaoContrato");
